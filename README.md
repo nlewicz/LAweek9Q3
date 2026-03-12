@@ -30,3 +30,12 @@ installable with: pip install pandas scikit-learn ucimlrepo
 3. enter the following command into your terminal or powershell: python week9LAQ3.py
 
 # Understanding the output  
+program shows 2 evaluation outputs, one displaying the validation set and the other the test set  
+Validation set is used to compare models and tune parameters better for better results  
+Test set shows the final performance results on unseen data  
+
+# analysis  
+Decision Tree: Best performing due to overall balance between results and had the Highest F1 score  
+KNN: Similar accuracy to decision tree with the Lower recall  
+Naive Bayes: Weak precision and predicts too many wines as good  
+
